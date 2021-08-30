@@ -39,3 +39,15 @@ tags = {
   environment = "dev"
   lob = "auto"
 }
+
+# subnets
+
+netnum = {
+  bastion = 32
+  web     = 16
+}
+
+newbits = {
+  bastion = 13
+  web     = 11
+}
