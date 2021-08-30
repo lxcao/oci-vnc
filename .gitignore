@@ -1,7 +1,7 @@
 # Compiled files
 *.tfstate
 *.tfstate.backup
-*.tfstate.lock.info
+*.tfstate.lock.*
 
 # logs
 *.log
@@ -18,6 +18,9 @@
 
 # Ignored Terraform files
 *gitignore*.tf
+
+# Ignored Terraform variale files
+*.tfvars
 
 # Ignore Mac .DS_Store files
 .DS_Store
