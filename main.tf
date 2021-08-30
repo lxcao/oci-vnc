@@ -25,3 +25,12 @@ module "vcn" {
   vcn_name                 = var.vcn_name
   lockdown_default_seclist = var.lockdown_default_seclist
 }
+
+module "subnets" {
+  source = "./modules/subnets"
+  
+  netnum  = var.netnum
+  newbits = var.newbits
+  
+  # other required variables
+}
